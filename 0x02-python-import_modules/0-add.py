@@ -6,7 +6,8 @@ from add_0 import add
 
 def main():
     # Define the variables
-    a, b = 1, 2
+    a = 1
+    b = 2
 
     # Compute the sum
     sum_ab = add(a, b)
