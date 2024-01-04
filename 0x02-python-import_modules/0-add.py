@@ -4,7 +4,7 @@
 from add_0 import add
 
 
-def main():
+if __name__ == "__main__":
     # Define the variables
     a = 1
     b = 2
@@ -14,8 +14,3 @@ def main():
 
     # Print the result in the required format
     print(f"{a} + {b} = {sum_ab}")
-
-
-# Ensure the main function is only executed when this script is run directly
-if __name__ == "__main__":
-    main()
