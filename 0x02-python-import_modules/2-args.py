@@ -7,7 +7,10 @@ if __name__ == "__main__":
     num_args = len(sys.argv) - 1  # Subtract 1 to exclude the script name
 
     # Print the number of arguments
-    print(f"{num_args} arguments", end="")
+    if num_args == 1:
+        print(f"{num_args} argument", end="")
+    else:
+        print(f"{num_args} arguments", end="")
 
     if num_args == 0:
         print(".")  # If no arguments, print a dot and a new line
