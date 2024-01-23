@@ -5,7 +5,7 @@ def safe_print_division(a, b):
         print("Inside result: {}".format(result))
         return result
     except ZeroDivisionError:
-        return 1
+        return None
     finally:
         if 'result' not in locals():
             print("Inside result: None")
