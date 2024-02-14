@@ -3,6 +3,8 @@
 """
 Defines a class Rectangle that represents a rectangle.
 """
+
+
 class Rectangle:
 
     """
@@ -15,6 +17,7 @@ class Rectangle:
         """
         self.width = width
         self.height = height
+
     @property
     def width(self):
         """
